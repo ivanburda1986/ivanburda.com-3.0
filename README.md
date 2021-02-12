@@ -22,6 +22,15 @@ Portfolio
 -Public art Vienna
 -Life perspective
 
+Must-have on the portfolio
+https://www.freecodecamp.org/news/coding-projects-to-include-in-your-frontend-portfolio/
+-A clone website
+-A CRUD application
+-An API connected website
+-A 'perfect score' website
+
+Shoot a few-minute long youtube video to introduce 5 most important project on my portfolio
+
 Contact
 
 
