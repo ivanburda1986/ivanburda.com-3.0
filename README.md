@@ -9,7 +9,7 @@ Profile
 My dev education
 -Freecodecamp (Responsive webdesign, JS and algorythms)
 -ui.dev
--HTML, CSS, Javascript, Saas, Bootstrap, React
+-HTML, CSS, Javascript, Saas, Bootstrap, React, redux
 -JS Ninja, What you dont know about JS, JS Weird parts
 -Algorythms, Linux, Github
 
@@ -32,6 +32,9 @@ https://www.freecodecamp.org/news/coding-projects-to-include-in-your-frontend-po
 Shoot a few-minute long youtube video to introduce 5 most important project on my portfolio
 
 Contact
+
+More blog ideas:
+A series on BDD: Discovery, Formulation, Automation
 
 
 
