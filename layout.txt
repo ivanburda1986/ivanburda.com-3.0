@@ -1,0 +1,47 @@
+Ivan Burda
+-Frontend Developer and IT/Business Analyst
+-Statement
+-Signature
+-Photos
+-A few lines introducing my experience, skills, service offer
+
+Open for cooperation
+-Frontend developer
+-Developer and analyst
+-Updated CV for download 
+-Link to LinkedIn, Twitter, Github, e-mail
+
+Developer education and experience
+Typescript
+Github, Postman, Linux bash, Algorithms
+
+React, Redux, React Router
+ui.dev: Learn React, Learn React Hooks, React Router4, React Router5, Learn Redux 
+-George FX, Memory Game, Store prototype, Shopping List, Habbit Master, Hacker News Clone, Hacker News Clone with Hooks
+
+Javascript, Jest, Cypress.io
+-Freecodecamp, algorithms 
+-JS Weird Parts, Modern Javascript, Advanced Javascript
+-YDKJS, Javascript Ninja
+-Vienna Public Art, Life Perspective, Guitar Coach, Next Tram, FX Currency Convertor
+
+HTML, CSS, SASS, Bootstrap
+-CSS in Depth
+-Freecodecamp, HTML CSS, Bootstrap, 20 Web projects with Vanilla JS
+-Petr Jordan, ivanburda.com 2.0, Christina Dengg, layout projects from the course with Matej 
+
+Analyst experience
+CSAS, Raiffeisen, CSAS, Erste George 
+List George responsibilities, successes 
+List technical and soft-skills experience 
+BDD
+-Bridging the Communication Gap 
+-BDD in Action
+-BDD Discovery, Formulation 
+-Sepa Credit Transfer 
+
+
+Languages 
+Czech, English, German 
+
+
