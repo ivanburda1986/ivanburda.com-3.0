@@ -1,0 +1,49 @@
+.Navigation {
+  padding: 0.5em 0em;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+
+.Navigation .container {
+  width: var(--container);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.Navigation h1 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--darkBlue);
+  font-size: 2rem;
+  letter-spacing: 5px;
+}
+
+.Navigation ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Navigation li {
+  min-width: 130px;
+  text-align: center;
+}
+
+.Navigation a {
+  text-decoration: none;
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--darkBlue);
+  padding: 0.5em 1em;
+}
+
+.Navigation a:hover {
+  font-weight: 700;
+}
