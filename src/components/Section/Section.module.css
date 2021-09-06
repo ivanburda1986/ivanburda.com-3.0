@@ -3,11 +3,32 @@
   width: 100%;
   height: 100vh;
 }
+
 .Section .container {
   width: var(--container);
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
+}
+
+.sectionColumns {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.columnOne {
+  width: 30%;
+  background-color: green;
+}
+
+.columnTwo {
+  width: 70%;
+  background-color: greenyellow;
 }
