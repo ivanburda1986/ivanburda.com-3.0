@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import styles from "./Navigation.module.css";
 
 export default function Navigation() {
@@ -9,16 +9,24 @@ export default function Navigation() {
         <h1>Ivan Burda</h1>
         <ul>
           <li>
-            <Link to="#">Profile</Link>
+            <Link to="about" smooth={true} spy={true} activeClass={styles.active}>
+              About
+            </Link>
           </li>
           <li>
-            <Link to="#">Experience</Link>
+            <Link to="experience" smooth={true} spy={true} activeClass={styles.active}>
+              Experience
+            </Link>
           </li>
           <li>
-            <Link to="#">Portfolio</Link>
+            <Link to="devportfolio" smooth={true} spy={true} activeClass={styles.active}>
+              Dev portfolio
+            </Link>
           </li>
           <li>
-            <Link to="#">Blog</Link>
+            <Link to="blog" smooth={true} spy={true} activeClass={styles.active}>
+              Blog
+            </Link>
           </li>
         </ul>
       </div>

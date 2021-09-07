@@ -3,6 +3,7 @@
   position: sticky;
   top: 0;
   background-color: #fff;
+  z-index: 999;
 }
 
 .Navigation .container {
@@ -42,8 +43,13 @@
   text-transform: uppercase;
   color: var(--darkBlue);
   padding: 0.5em 1em;
+  cursor: pointer;
 }
 
 .Navigation a:hover {
+  font-weight: 700;
+}
+
+.Navigation a.active {
   font-weight: 700;
 }

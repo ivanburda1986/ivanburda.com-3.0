@@ -1,3 +1,45 @@
+ABOUT 
+Frontend Developer, IT/Business Analyst 
+LinkedIn, Github, CV PDF
+Languages: Czech (C2), English (C1), German (B2/C1)
+
+EXPERIENCE
+IT/Business Analyst: 2014 - present 
+-Erste Group, Ceska sporitelna, Raiffeisen, Greyson 
+-List of top contributions 
+-List of top skills
+
+Developer Self-taught 
+-Top Skills: HTML, CSS, Saas, Bootstrap, Javascript, React, Redux, Typescript, Github
+-Courses:
+HTML, CSS, Saas, Bootstrap 
+
+Javascript 
+
+React, Redux, Typescript
+
+Github, Linux
+
+
+DEV PORTFOLIO
+
+
+BLOG
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Ivan Burda
 -Frontend Developer and IT/Business Analyst
 -Statement

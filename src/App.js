@@ -6,8 +6,18 @@ function App() {
   return (
     <div className="App">
       <Navigation />
-      <Section />
-      <Section />
+      <Section id="about" title={"About"} odd={true}>
+        <p>ivan</p>
+      </Section>
+      <Section id="experience" title={"Experience"} odd={false}>
+        <p>ivan</p>
+      </Section>
+      <Section id="devportfolio" title={"Dev Portfolio"} odd={true}>
+        <p>ivan</p>
+      </Section>
+      <Section id="blog" title={"Blog"} odd={false}>
+        <p>ivan</p>
+      </Section>
     </div>
   );
 }

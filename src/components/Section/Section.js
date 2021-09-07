@@ -1,15 +1,14 @@
 import React from "react";
 import styles from "./Section.module.css";
 
-export default function Section() {
+export default function Section({ children, id, title, odd }) {
   return (
-    <section className={styles.Section}>
+    <section id={id} className={styles.Section} style={{ backgroundColor: odd ? "var(--lightBg)" : "var(--darkBg)" }}>
       <div className={styles.container}>
-        <h2>section</h2>
-        <div className={styles.sectionColumns}>
-          <div className={styles.columnOne}>one</div>
-          <div className={styles.columnTwo}>two</div>
+        <div className={styles.sectionTitle}>
+          <h2>{title}</h2>
         </div>
+        {children}
       </div>
     </section>
   );

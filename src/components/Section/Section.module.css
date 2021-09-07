@@ -1,5 +1,4 @@
 .Section {
-  background-color: var(--darkBg);
   width: 100%;
   height: 100vh;
 }
@@ -8,27 +7,27 @@
   width: var(--container);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 auto;
-}
-
-.sectionColumns {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: flex-start;
-  flex-wrap: wrap;
   margin: 0 auto;
+  padding-top: 4rem;
 }
 
-.columnOne {
-  width: 30%;
-  background-color: green;
+.sectionTitle {
+  position: relative;
 }
 
-.columnTwo {
-  width: 70%;
-  background-color: greenyellow;
+.sectionTitle h2 {
+  text-transform: uppercase;
+  margin-left: 2.5rem;
+}
+
+.sectionTitle:before {
+  position: absolute;
+  top: 0.5rem;
+  left: 0;
+  content: "";
+  width: 1.875rem;
+  height: 0.5rem;
+  background-color: #1d3f62;
 }
