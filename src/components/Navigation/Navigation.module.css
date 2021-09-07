@@ -7,12 +7,15 @@
 }
 
 .Navigation .container {
-  width: var(--container);
+  max-width: var(--container);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
+  flex-wrap: wrap;
+  padding-left: 0.5rem;
+  padding-right: var(--sidePadding);
 }
 
 .Navigation h1 {
@@ -29,6 +32,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .Navigation li {

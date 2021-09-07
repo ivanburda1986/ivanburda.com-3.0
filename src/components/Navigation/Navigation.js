@@ -24,8 +24,8 @@ export default function Navigation() {
             </Link>
           </li>
           <li>
-            <Link to="blog" smooth={true} spy={true} activeClass={styles.active}>
-              Blog
+            <Link to="contact" smooth={true} spy={true} activeClass={styles.active}>
+              Contact
             </Link>
           </li>
         </ul>

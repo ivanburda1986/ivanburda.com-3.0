@@ -4,13 +4,15 @@
 }
 
 .Section .container {
-  width: var(--container);
+  max-width: var(--container);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  margin: 0 auto;
+  margin: 0rem auto;
   padding-top: 4rem;
+  padding-left: var(--sidePadding);
+  padding-right: var(--sidePadding);
 }
 
 .sectionTitle {

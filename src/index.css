@@ -70,6 +70,7 @@
   /* --darkBlue: #1d3f62; */
   --lightBg: #dce7ff;
   --darkBg: #afc4cc;
+  --sidePadding: 0.5rem;
 }
 
 * {
