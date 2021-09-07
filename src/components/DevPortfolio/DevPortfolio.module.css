@@ -1,0 +1,14 @@
+.DevPortfolio {
+  width: 100%;
+  text-align: left;
+}
+
+.DevPortfolio ul {
+  list-style: none;
+}
+
+.project {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
