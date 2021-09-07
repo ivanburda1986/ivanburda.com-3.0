@@ -69,8 +69,10 @@
   --darkBlue: #262c2e;
   /* --darkBlue: #1d3f62; */
   --lightBg: #dce7ff;
+  --mediumBg: #c6d6e6;
   --darkBg: #afc4cc;
-  --sidePadding: 0.5rem;
+  --sidePaddingSmall: 0.5rem;
+  --sidePaddingLarge: 1.5rem;
 }
 
 * {
@@ -89,6 +91,10 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+a {
+  text-decoration: none;
 }
 
 h2 {

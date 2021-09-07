@@ -3,6 +3,7 @@ import Navigation from "./components/Navigation/Navigation";
 import Section from "./components/Section/Section";
 import About from "./components/About/About";
 import DevPortfolio from "./components/DevPortfolio/DevPortfolio";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -17,9 +18,7 @@ function App() {
       <Section id="devportfolio" title={"Dev Portfolio"} odd={true}>
         <DevPortfolio />
       </Section>
-      <Section id="contact" title={"Contact"} odd={false}>
-        <p>ivan</p>
-      </Section>
+      <Footer />
     </div>
   );
 }

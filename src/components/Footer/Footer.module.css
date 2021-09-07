@@ -1,0 +1,26 @@
+.Footer {
+  padding: 0.5em 0em;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 999;
+}
+
+.Footer .container {
+  max-width: var(--container);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  padding-left: 0.5rem;
+  padding-right: var(--sidePaddingSmall);
+}
+
+.contactIcon {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  color: var(--blue);
+  cursor: pointer;
+}

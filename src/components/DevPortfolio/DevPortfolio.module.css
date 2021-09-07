@@ -3,12 +3,19 @@
   text-align: left;
 }
 
-.DevPortfolio ul {
-  list-style: none;
+.DevPortfolioSectionTitle {
+  display: flex;
 }
 
-.project {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
+.icon {
+  font-size: 2rem;
+  margin: 0 0.25em;
+  background-color: var(--mediumBg);
+  border-radius: 5px;
+  padding: 0.25rem;
+}
+
+.DevPortfolio ul {
+  list-style: none;
+  margin-bottom: 2rem;
 }

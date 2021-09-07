@@ -11,8 +11,9 @@
   align-items: flex-start;
   margin: 0rem auto;
   padding-top: 4rem;
-  padding-left: var(--sidePadding);
-  padding-right: var(--sidePadding);
+  padding-bottom: 3rem;
+  padding-left: var(--sidePaddingSmall);
+  padding-right: var(--sidePaddingSmall);
 }
 
 .sectionTitle {

@@ -23,11 +23,6 @@ export default function Navigation() {
               Dev portfolio
             </Link>
           </li>
-          <li>
-            <Link to="contact" smooth={true} spy={true} activeClass={styles.active}>
-              Contact
-            </Link>
-          </li>
         </ul>
       </div>
     </nav>

@@ -15,7 +15,7 @@
   margin: 0 auto;
   flex-wrap: wrap;
   padding-left: 0.5rem;
-  padding-right: var(--sidePadding);
+  padding-right: var(--sidePaddingSmall);
 }
 
 .Navigation h1 {
@@ -56,4 +56,20 @@
 
 .Navigation a.active {
   font-weight: 700;
+}
+
+@media screen and (max-width: 760px) {
+  .Navigation h1 {
+    width: 100%;
+    border-bottom: 1px solid var(--lightBg);
+  }
+
+  .Navigation ul {
+    width: 100%;
+  }
+
+  .Navigation li {
+    width: 100%;
+    padding: 0.5em 0em;
+  }
 }
