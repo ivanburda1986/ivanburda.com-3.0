@@ -1,0 +1,98 @@
+.About {
+  display: flex;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.secondaryColumn {
+  width: 35%;
+  padding: 0 0.5em;
+}
+.secondaryImg {
+  width: 100%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-bottom: 0.5rem;
+  background-color: var(--mediumBg);
+}
+
+.signature {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.secondaryStatement {
+  font-size: 1.2rem;
+  font-style: italic;
+  text-align: left;
+  font-weight: 600;
+  color: var(--darkBlue);
+}
+
+.primaryColumn {
+  width: 65%;
+  /* background-color: var(--mediumBg); */
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 0em 0.5em;
+}
+
+.primaryHeadline {
+  font-size: 1.5rem;
+  text-align: left;
+  font-weight: 600;
+  color: var(--darkBlue);
+  margin-bottom: 1rem;
+}
+
+.topSkills {
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  line-height: 1.8rem;
+  color: var(--darkBlue);
+}
+.primaryCurrentlyInterested {
+  text-align: left;
+  font-weight: 600;
+  color: var(--darkBlue);
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.primaryContactIcons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.primaryContactIcons a {
+  display: flex;
+  flex-direction: column;
+  width: 110px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  padding: 0.25em 0.5em;
+  border: 3px solid var(--darkBlue);
+  margin: 0.25rem;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  color: var(--darkBlue);
+  text-transform: uppercase;
+}
+
+.primaryContactIcons a p {
+  margin: 0.2em;
+}
+
+.primaryContactIcons li {
+  display: inline;
+}
+
+.primaryIcon {
+  font-size: 3rem;
+  color: var(--darkBlue);
+}

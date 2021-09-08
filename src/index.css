@@ -66,7 +66,7 @@
   font-size: 1rem;
   --container: 1024px;
   --blue: #156099;
-  --darkBlue: #262c2e;
+  --darkBlue: #1d3f62;
   /* --darkBlue: #1d3f62; */
   --lightBg: #dce7ff;
   --mediumBg: #c6d6e6;
@@ -95,6 +95,10 @@ code {
 
 a {
   text-decoration: none;
+}
+
+p {
+  font-family: "Barlow", sans-serif;
 }
 
 h2 {
