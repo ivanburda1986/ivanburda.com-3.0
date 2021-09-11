@@ -14,7 +14,7 @@ export default function DevPortfolio() {
   return (
     <div className={styles.DevPortfolio}>
       <div className={styles.DevPortfolioSectionTitle}>
-        <h3>React/Redux/Typescript</h3>
+        <h3>React/Redux/TS</h3>
         <SiReact className={styles.icon} style={{ color: "#1E90FF" }} />
         <SiRedux className={styles.icon} style={{ color: "#483D8B" }} />
         <SiTypescript className={styles.icon} style={{ color: "#1E90FF" }} />

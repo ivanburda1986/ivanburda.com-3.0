@@ -1,0 +1,14 @@
+.SecondaryColumn {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0.5em;
+  min-width: 225px;
+  width: 35%;
+}
+
+@media screen and (max-width: 675px) {
+  .SecondaryColumn {
+    flex-direction: row;
+    width: 100%;
+  }
+}

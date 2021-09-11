@@ -1,0 +1,21 @@
+.ExperienceItem {
+  width: 100%;
+  text-align: left;
+  background-color: var(--mediumBg);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-bottom: 1em;
+}
+
+.header {
+  display: flex;
+  background-color: var(--blue);
+  color: #fff;
+  padding: 0.5em;
+  font-weight: 600;
+}
+
+.body {
+  display: flex;
+  padding: 0.5em;
+}

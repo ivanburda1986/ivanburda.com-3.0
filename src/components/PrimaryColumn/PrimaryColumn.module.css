@@ -1,0 +1,16 @@
+.PrimaryColumn {
+  display: flex;
+  flex-direction: column;
+  /* background-color: var(--mediumBg); */
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 0em 0.5em;
+  width: 65%;
+  min-width: 300px;
+}
+
+@media screen and (max-width: 675px) {
+  .PrimaryColumn {
+    width: 100%;
+  }
+}

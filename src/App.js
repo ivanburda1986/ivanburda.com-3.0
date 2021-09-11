@@ -4,6 +4,7 @@ import Section from "./components/Section/Section";
 import About from "./components/About/About";
 import DevPortfolio from "./components/DevPortfolio/DevPortfolio";
 import Footer from "./components/Footer/Footer";
+import Experience from "./components/Experience/Experience";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         <About />
       </Section>
       <Section id="experience" title={"Experience"} odd={false}>
-        <p>ivan</p>
+        <Experience />
       </Section>
       <Section id="devportfolio" title={"Dev Portfolio"} odd={true}>
         <DevPortfolio />
