@@ -22,8 +22,16 @@
 }
 
 .body ul {
-  margin-top: 0.5em;
   padding-left: 1em;
+  margin-bottom: 0.5rem;
+}
+
+.body li {
+  font-size: 0.8em;
+}
+
+.body ul a:hover {
+  text-decoration: underline;
 }
 
 .body p {

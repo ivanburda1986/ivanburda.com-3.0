@@ -98,6 +98,10 @@ a {
   text-decoration: none;
 }
 
+a:visited {
+  color: var(--darkBlue);
+}
+
 p {
   font-family: "Barlow", sans-serif;
 }
