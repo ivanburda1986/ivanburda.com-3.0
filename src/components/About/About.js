@@ -31,19 +31,19 @@ export default function About() {
           <li>
             <a href="#">
               <BiFile className={styles.primaryIcon} />
-              <p>GET CV</p>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <SiGithub className={styles.primaryIcon} />
-              <p>Github</p>
+              <p>RESUMÉ</p>
             </a>
           </li>
           <li>
             <a href="#">
               <GrLinkedin className={styles.primaryIcon} />
               <p>LinkedIn</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <SiGithub className={styles.primaryIcon} />
+              <p>Github</p>
             </a>
           </li>
           <li>

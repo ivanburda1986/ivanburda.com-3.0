@@ -14,6 +14,12 @@ export default function Experience() {
       </SecondaryColumn>
       <PrimaryColumn>
         <ExperienceItem headline="Frontend Developer" icon={ImUserTie}>
+          <p>After several failed attempts to learn programming earlier in my life when the Internet was still dial-up and coding was learnt from printed books, in January 2019 I decided to start again and this time succeed.</p>
+          <p>
+            I have always been excited about the ability to make a computer do things, not just use what others have created. Besides this, when I started in 2019, I was already working as an IT/Business analyst at a UI-heavy project, and learning to code was a way to have more educated discussions
+            anybody around and be a better analyst as well.
+          </p>
+          <p>Since my private learning and my job complemented each other, things started to click and I have become passionate about programming. See below my learning curriculum and scroll down to check also my development portfolio to see how I have applied what I have learnt.</p>
           <ul>
             <li>ian</li>
             <li>ian</li>
