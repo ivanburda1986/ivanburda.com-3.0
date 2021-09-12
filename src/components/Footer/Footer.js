@@ -17,13 +17,13 @@ export default function Footer() {
         <p>
           Ivan Burda &copy; <span>{getYear()}</span>
         </p>
-        <a href="" className={styles.contactIcon}>
+        <a href="https://www.linkedin.com/in/ivan-burda-08337335" className={styles.contactIcon} target="_blank" rel="noreferrer">
           <GrLinkedin />
         </a>
-        <a href="" className={styles.contactIcon}>
+        <a href="https://github.com/ivanburda1986" className={styles.contactIcon} target="_blank" rel="noreferrer">
           <SiGithub />
         </a>
-        <a href="" className={styles.contactIcon}>
+        <a href="mailto:burda.ivan@gmail.com" className={styles.contactIcon} target="_blank" rel="noreferrer">
           <HiOutlineMail />
         </a>
       </div>

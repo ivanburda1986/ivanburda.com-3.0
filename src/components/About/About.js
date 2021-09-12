@@ -35,19 +35,19 @@ export default function About() {
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/ivan-burda-08337335" target="_blank" rel="noreferrer">
               <GrLinkedin className={styles.primaryIcon} />
               <p>LinkedIn</p>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="https://github.com/ivanburda1986" target="_blank" rel="noreferrer">
               <SiGithub className={styles.primaryIcon} />
               <p>Github</p>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="mailto:burda.ivan@gmail.com" target="_blank" rel="noreferrer">
               <HiOutlineMail className={styles.primaryIcon} />
               <p>E-mail</p>
             </a>

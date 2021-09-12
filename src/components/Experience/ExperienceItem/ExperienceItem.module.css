@@ -21,9 +21,13 @@
   flex-direction: column;
 }
 
+.body h5 {
+  margin-bottom: 0.3em;
+}
+
 .body ul {
   padding-left: 1em;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
 }
 
 .body li {
