@@ -10,8 +10,12 @@ export default function PortfolioItem({ visitUrl, githubUrl, title, description 
         <div className={styles.projectBody}>
           <h4>{title}</h4>
           <div className={styles.icons}>
-            <a href={visitUrl}>Visit</a>
-            <a href={githubUrl}>Github</a>
+            <a href={visitUrl} target="_blank" rel="noreferrer">
+              Visit
+            </a>
+            <a href={githubUrl} target="_blank" rel="noreferrer">
+              Github
+            </a>
           </div>
         </div>
         <p>{description}</p>

@@ -3,6 +3,10 @@
   text-align: left;
 }
 
+.DevPortfolioIntro {
+  margin-bottom: 2rem;
+}
+
 .DevPortfolioSectionTitle {
   display: flex;
 }
