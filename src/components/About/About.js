@@ -25,6 +25,7 @@ export default function About() {
           <li>Banking, Desktop, Mobile, IT-system integration, REST API</li>
           <li>React, Redux, Typescript, Javascript, HTML, CSS, Cypress.io</li>
           <li>Czech, English, German</li>
+          <li>Located in Austria, Vienna</li>
         </ul>
         <p className={styles.primaryCurrentlyInterested}>Currently interested in frontend-development opportunities in the banking/finance sector.</p>
         <ul className={styles.primaryContactIcons}>
