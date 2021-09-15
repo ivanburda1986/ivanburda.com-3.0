@@ -8,6 +8,7 @@ import { SiGithub } from "react-icons/si";
 import { GrLinkedin } from "react-icons/gr";
 import SecondaryColumn from "../SecondaryColumn/SecondaryColumn";
 import PrimaryColumn from "../PrimaryColumn/PrimaryColumn";
+import CV from "../../media/IVAN_BURDA-CV.pdf";
 
 export default function About() {
   return (
@@ -30,7 +31,7 @@ export default function About() {
         <p className={styles.primaryCurrentlyInterested}>Currently interested in frontend-development opportunities in the banking/finance sector.</p>
         <ul className={styles.primaryContactIcons}>
           <li>
-            <a href="#">
+            <a href={CV} download="IVAN_BURDA-CV.pdf">
               <BiFile className={styles.primaryIcon} />
               <p>RESUMÉ</p>
             </a>
