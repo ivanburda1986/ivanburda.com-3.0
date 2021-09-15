@@ -172,8 +172,8 @@ export default function Experience() {
           <h5>Languages</h5>
           <ul>
             <li>Czech - C2: Native speaker</li>
-            <li>English - C1: Full working profficiency</li>
-            <li>German - B2/C1: Limited working profficiency</li>
+            <li>English - C1: Full working proficiency</li>
+            <li>German - B2/C1: Limited working proficiency</li>
           </ul>
         </ExperienceItem>
       </PrimaryColumn>
