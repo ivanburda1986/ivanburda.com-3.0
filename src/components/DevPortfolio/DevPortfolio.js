@@ -20,6 +20,9 @@ export default function DevPortfolio() {
         <SiTypescript className={styles.icon} style={{ color: "#1E90FF" }} />
       </div>
       <ul>
+        <PortfolioItem inProgress="true" visitUrl="#" githubUrl="#" title="FX Convertor - Refactored with TypeScript (In progress)" description="One of the hiring tasks of the frontend team in the company I work for. Now refactored with TypeScript." />
+        <PortfolioItem inProgress="true" visitUrl="#" githubUrl="#" title="Hacker News Clone - Refactored with TypeScript (In progress)" description="A copy of the basic features of the favourite Hackernews website. Refactored in TypeScript." />
+
         <PortfolioItem
           visitUrl="https://silly-hodgkin-048af9.netlify.app/"
           githubUrl="https://github.com/ivanburda1986/StorePrototype"
