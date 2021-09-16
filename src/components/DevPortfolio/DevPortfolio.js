@@ -85,7 +85,12 @@ export default function DevPortfolio() {
         <SiSass className={styles.icon} style={{ color: "#FF1493" }} />
       </div>
       <ul>
-        <PortfolioItem visitUrl="#" githubUrl="#" title="CSS Layout Exercise (07/2021)" description="A course assignment to build a sophisticated, fully responsive layout with CSS." />
+        <PortfolioItem
+          visitUrl="https://distracted-nightingale-8626a9.netlify.app/"
+          githubUrl="https://github.com/ivanburda1986/css-assignment"
+          title="CSS Layout Exercise (07/2021)"
+          description="A course assignment to build a rather complex, fully responsive layout with CSS. Check the sections: 'Portfolio' and 'About'."
+        />
         <PortfolioItem visitUrl="https://www.jordanpetr.cz/" githubUrl="https://github.com/ivanburda1986/jordanpetr.cz" title="Small business website (07/2020)" description="A simple, presentation website for a real business. Built with HTML, CSS. Fully responsive." />
         <PortfolioItem visitUrl="https://cranky-babbage-0df30f.netlify.app/" githubUrl="https://github.com/ivanburda1986/ivanburda.com-2.0" title="My own website (05/2020)" description="An older version of my own website built fully with HTML, CSS, and a little bit of JS. Fully responsive." />
         <PortfolioItem visitUrl="https://heuristic-knuth-f61b81.netlify.app/" githubUrl="https://github.com/ivanburda1986/christinaDengg" title="A personal presentation (09/2019)" description="Presentational website for a pole-dance trainer from Vienna. Lots of CSS, including animations." />

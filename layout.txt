@@ -1,5 +1,6 @@
 Remaining:
-CSS Layout - github, deployement 
+responsiveness 
+mobile menu
 
 
 

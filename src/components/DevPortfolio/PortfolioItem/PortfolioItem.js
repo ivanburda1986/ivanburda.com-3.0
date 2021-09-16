@@ -1,6 +1,4 @@
 import React from "react";
-import { FaGithub } from "react-icons/fa";
-import { ImEye } from "react-icons/im";
 import styles from "./PortfolioItem.module.css";
 
 export default function PortfolioItem({ inProgress, visitUrl, githubUrl, title, description }) {

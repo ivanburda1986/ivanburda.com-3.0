@@ -86,3 +86,29 @@
   font-size: 3rem;
   color: var(--darkBlue);
 }
+
+@media screen and (max-width: 675px) {
+  .secondaryImg {
+    width: 50%;
+  }
+  .statementSignatureContainer {
+    padding: 0 1em;
+  }
+
+  .secondaryStatement {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .secondaryImg {
+    width: 100%;
+  }
+  .statementSignatureContainer {
+    padding: 0em;
+  }
+
+  .secondaryImg {
+    max-width: 435px;
+  }
+}

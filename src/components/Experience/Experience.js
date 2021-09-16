@@ -12,13 +12,15 @@ export default function Experience() {
     <div className={styles.Experience}>
       <SecondaryColumn>
         <img src={ivanOutdoor} alt="Ivan Burda" className={styles.secondaryImg} />
-        <p>
-          As an <strong>IT/Business analyst</strong> I help companies understand their needs, refine them and specify steps to fulfill them.{" "}
-        </p>
-        <p>
-          Driven by a desire to get deeper technical understanding, <strong>in 2019 I set on the journey of becoming a self-taught developer</strong>.
-        </p>
-        <p>Thanks to the combination of analytical and developer skills I have better understanding of the systems as well as of the people at the workplace, regardless their professional background.</p>
+        <div className={styles.secondaryTexts}>
+          <p>
+            As an <strong>IT/Business analyst</strong> I help companies understand their needs, refine them and specify steps to fulfill them.
+          </p>
+          <p>
+            Driven by a desire to get deeper technical understanding, <strong>in 2019 I set on the journey of becoming a self-taught developer</strong>.
+          </p>
+          <p>Thanks to the combination of analytical and developer skills I have better understanding of the systems as well as of the people at the workplace, regardless their professional background.</p>
+        </div>
       </SecondaryColumn>
       <PrimaryColumn>
         <ExperienceItem headline="Frontend Developer" icon={ImUserTie}>
@@ -135,6 +137,7 @@ export default function Experience() {
             </li>
           </ul>
         </ExperienceItem>
+
         <ExperienceItem headline="IT/Business Analyst, 2014 - present" icon={ImUserTie}>
           <p>I started working as an IT/Business Analyst in banking in 2014. As an analyst I see myself responsible for helping companies understand their requirements and refine those in order to deliver valuable solutions.</p>
           <p>I am experienced with working in agile, scrum-based, cross-functional teams. As an analyst I bring team members together to understand what we want to build and why. Collaboration increases engagement, ownership, knowledge sharing, and ultimately leads to better culture. </p>

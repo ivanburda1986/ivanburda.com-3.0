@@ -5,8 +5,39 @@
 }
 .secondaryImg {
   width: 100%;
+  max-width: 335px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   margin-bottom: 0.5rem;
   background-color: var(--mediumBg);
+}
+
+@media screen and (max-width: 675px) {
+  .Experience {
+    flex-direction: column;
+  }
+  .secondaryImg {
+    width: 50%;
+    float: right;
+  }
+  .secondaryTexts {
+    padding: 0 1em;
+  }
+
+  .secondaryStatement {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .secondaryImg {
+    width: 100%;
+  }
+  .secondaryTexts {
+    padding: 0em;
+  }
+
+  .secondaryImg {
+    max-width: 435px;
+  }
 }

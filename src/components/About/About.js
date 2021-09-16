@@ -15,8 +15,10 @@ export default function About() {
     <div className={styles.About}>
       <SecondaryColumn>
         <img src={ivanBusinessNoBg} alt="Ivan Burda" className={styles.secondaryImg} />
-        <p className={styles.secondaryStatement}>I help businesses understand their needs and translate those into valuable solutions.</p>
-        <img src={signature} alt="Ivan Burda - Hand signature" className={styles.signature} />
+        <div className={styles.statementSignatureContainer}>
+          <p className={styles.secondaryStatement}>I help businesses understand their needs and translate those into valuable solutions.</p>
+          <img src={signature} alt="Ivan Burda - Hand signature" className={styles.signature} />
+        </div>
       </SecondaryColumn>
       <PrimaryColumn>
         <p className={styles.primaryHeadline}>Welcome! I am Ivan Burda. An experienced IT/Business analyst in banking, and a self-taught frontend developer.</p>
