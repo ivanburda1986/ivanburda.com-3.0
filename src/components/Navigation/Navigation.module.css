@@ -73,3 +73,6 @@
     padding: 0.5em 0em;
   }
 }
+
+@media screen and (max-width: 450px) {
+}
