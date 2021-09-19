@@ -5,11 +5,13 @@ import About from "./components/About/About";
 import DevPortfolio from "./components/DevPortfolio/DevPortfolio";
 import Footer from "./components/Footer/Footer";
 import Experience from "./components/Experience/Experience";
+import MobileNavigation from "./components/Navigation/MobileNavigation";
 
 function App() {
   return (
     <div className="App">
       <Navigation />
+      <MobileNavigation />
       <Section id="about" title={"About"} odd={true}>
         <About />
       </Section>

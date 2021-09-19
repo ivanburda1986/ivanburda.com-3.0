@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-scroll";
-import styles from "./Navigation.module.css";
 import { FiMenu } from "react-icons/fi";
+import styles from "./Navigation.module.css";
 
-const classes = [styles.Navigation, styles.DesktopNavigation].join(" ");
+const classes = [styles.Navigation, styles.MobileNavigation].join(" ");
 
-export default function Navigation() {
+export default function MobileNavigation() {
   return (
-    <nav className={classes}>
+    <div className={classes}>
       <div className={styles.container}>
         <h1>Ivan Burda</h1>
         <ul>
@@ -28,6 +28,6 @@ export default function Navigation() {
           </li>
         </ul>
       </div>
-    </nav>
+    </div>
   );
 }
