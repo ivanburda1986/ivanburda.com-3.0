@@ -26,7 +26,7 @@ export default function About() {
           <li>Analysis and refinement of business needs</li>
           <li>Requirements engineering, Agile, Scrum, BDD</li>
           <li>Banking, Desktop, Mobile, IT-system integration, REST API</li>
-          <li>React, Redux, Typescript, Javascript, HTML, CSS, Cypress.io</li>
+          <li>React, Redux, Typescript, Javascript, HTML, CSS, Cypress</li>
           <li>Czech, English, German</li>
           <li>Located in Austria, Vienna</li>
         </ul>
