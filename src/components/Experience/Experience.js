@@ -170,7 +170,7 @@ export default function Experience() {
                 Master the Linux Command Line <BsBoxArrowUpRight />
               </a>
             </li>
-            <li>Github, Postman, Cypress.io, Jira, Confluence</li>
+            <li>Github, Postman, Cypress, Jira, Confluence</li>
           </ul>
           <h5>Languages</h5>
           <ul>

@@ -96,6 +96,7 @@ code {
 
 a {
   text-decoration: none;
+  color: var(--darkBlue);
 }
 
 a:visited {
