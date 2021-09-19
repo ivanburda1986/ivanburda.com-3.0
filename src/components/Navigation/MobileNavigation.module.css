@@ -1,0 +1,100 @@
+.MobileNavigation {
+  display: none;
+}
+
+.MobileNavigation {
+  padding: 0.5em 0em;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 999;
+}
+
+.MobileNavigation .container {
+  max-width: var(--container);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+/* Header */
+.MobileNavigationHeader {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-left: 3rem;
+}
+
+.hamburger {
+  display: flex;
+  height: 100%;
+  font-size: 1.5rem;
+  margin-right: 2rem;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.MobileNavigation h1 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--darkBlue);
+  letter-spacing: 5px;
+  font-size: 1rem;
+  width: 100%;
+  padding-bottom: 0.5rem;
+}
+
+/* List */
+
+.MobileNavigationList {
+  margin: 0 auto;
+  width: 100%;
+  border-top: 1px solid var(--lightBg);
+}
+
+.MobileNavigationList ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.MobileNavigationList li {
+  text-align: center;
+  width: 100%;
+  padding: 0.5em 0em;
+}
+
+.MobileNavigationList a {
+  text-decoration: none;
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--darkBlue);
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+.MobileNavigationList a:hover {
+  font-weight: 700;
+}
+
+.MobileNavigationList a.active {
+  font-weight: 700;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 760px) {
+  .MobileNavigation {
+    display: flex;
+    width: 100%;
+  }
+}

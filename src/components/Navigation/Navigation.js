@@ -1,13 +1,10 @@
 import React from "react";
 import { Link } from "react-scroll";
 import styles from "./Navigation.module.css";
-import { FiMenu } from "react-icons/fi";
-
-const classes = [styles.Navigation, styles.DesktopNavigation].join(" ");
 
 export default function Navigation() {
   return (
-    <nav className={classes}>
+    <nav className={styles.Navigation}>
       <div className={styles.container}>
         <h1>Ivan Burda</h1>
         <ul>
