@@ -20,6 +20,12 @@ export default function DevPortfolio() {
         <SiTypescript className={styles.icon} style={{ color: "#1E90FF" }} />
       </div>
       <ul>
+        <PortfolioItem
+          visitUrl="https://snippets.ivanburda.com/"
+          githubUrl="https://github.com/ivanburda1986/snippets"
+          title="Snippets"
+          description="An online storage for my own code snippets. Read access to most snippets is public. Some private snippets and all create, update, delete features are restricted to an authenticated user only. The authentication is done via the Firebase authentication service. Firebase realtime database also serves as a data storage."
+        />
         <PortfolioItem inProgress="true" visitUrl="#" githubUrl="#" title="FX Convertor - Refactored with TypeScript (In progress)" description="One of the hiring tasks of the frontend team in the company I work for. Now refactored with TypeScript." />
         <PortfolioItem inProgress="true" visitUrl="#" githubUrl="#" title="Hacker News Clone - Refactored with TypeScript (In progress)" description="A copy of the basic features of the favourite Hackernews website. Refactored in TypeScript." />
 
