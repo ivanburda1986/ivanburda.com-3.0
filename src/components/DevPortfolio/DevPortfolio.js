@@ -21,13 +21,17 @@ export default function DevPortfolio() {
       </div>
       <ul>
         <PortfolioItem
+          visitUrl="https://jolly-hoover-c59e25.netlify.app/"
+          githubUrl="https://github.com/ivanburda1986/interview-fx-test-typescript"
+          title="FX Pairs - Refactored with TypeScript (12/2021)"
+          description="One of the hiring tasks of the frontend team in the company I work for. Built with React, tested with Jest, now refactored with TypeScript. The app gets data about conversion rate between individual world currencies and Euro. It is possible to search for a specific currency."
+        />
+        <PortfolioItem
           visitUrl="https://snippets.ivanburda.com/"
           githubUrl="https://github.com/ivanburda1986/snippets"
           title="Snippets (12/2021)"
           description="An online storage for my own code snippets. Read access to most snippets is public. Some private snippets and all create, update, delete features are restricted to an authenticated user only. The authentication is done via the Firebase authentication service. Firebase realtime database also serves as a data storage."
         />
-        <PortfolioItem inProgress="true" visitUrl="#" githubUrl="#" title="FX Convertor - Refactored with TypeScript (In progress)" description="One of the hiring tasks of the frontend team in the company I work for. Now refactored with TypeScript." />
-        <PortfolioItem inProgress="true" visitUrl="#" githubUrl="#" title="Hacker News Clone - Refactored with TypeScript (In progress)" description="A copy of the basic features of the favourite Hackernews website. Refactored in TypeScript." />
 
         <PortfolioItem
           visitUrl="https://silly-hodgkin-048af9.netlify.app/"
@@ -35,7 +39,12 @@ export default function DevPortfolio() {
           title="Store Prototype (08/2021)"
           description="A prototype for a product idea in the company I work for. I build a React frontend that displays items dynamically returned from the API."
         />
-        <PortfolioItem visitUrl="https://fx.ivanburda.com/" githubUrl="https://github.com/ivanburda1986/interview-fx-test" title="FX Convertor (07/2021)" description="One of the hiring tasks of the frontend team in the company I work for." />
+        <PortfolioItem
+          visitUrl="https://fx.ivanburda.com/"
+          githubUrl="https://github.com/ivanburda1986/interview-fx-test"
+          title="FX Pairs (07/2021)"
+          description="One of the hiring tasks of the frontend team in the company I work for. The app gets data about conversion rate between individual world currencies and Euro. It is possible to search for a specific currency. Built with React. Unit tests in Jest."
+        />
         <PortfolioItem
           visitUrl="https://memorygame.ivanburda.com/"
           githubUrl="https://github.com/ivanburda1986/memoryGame"
