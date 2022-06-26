@@ -16,21 +16,22 @@ export default function About() {
       <SecondaryColumn>
         <img src={ivanBusinessNoBg} alt="Ivan Burda" className={styles.secondaryImg} />
         <div className={styles.statementSignatureContainer}>
-          <p className={styles.secondaryStatement}>I help businesses understand their needs and translate those into valuable solutions.</p>
+          <p className={styles.secondaryStatement}>I help companies understand their needs and turn them into working solutions.</p>
           <img src={signature} alt="Ivan Burda - Hand signature" className={styles.signature} />
         </div>
       </SecondaryColumn>
       <PrimaryColumn>
-        <p className={styles.primaryHeadline}>Welcome! I am Ivan Burda. An experienced IT/Business analyst in banking, and a self-taught frontend developer.</p>
+        <p className={styles.primaryHeadline}>Welcome! I am a front-end developer with 8 years of IT/Business-analyst experience in banking.</p>
         <ul className={styles.topSkills}>
+          <li>React, Redux, Typescript, Javascript, HTML, CSS, Sass</li>
+          <li>Bootstrap, Firestore, Cypress </li>
           <li>Analysis and refinement of business needs</li>
           <li>Requirements engineering, Agile, Scrum, BDD</li>
           <li>Banking, Desktop, Mobile, IT-system integration, REST API</li>
-          <li>React, Redux, Typescript, Javascript, HTML, CSS, Cypress</li>
           <li>Czech, English, German</li>
           <li>Located in Austria, Vienna</li>
         </ul>
-        <p className={styles.primaryCurrentlyInterested}>Currently interested in frontend-development opportunities in the banking/finance sector.</p>
+        {/*<p className={styles.primaryCurrentlyInterested}>Currently interested in frontend-development opportunities in the banking/finance sector.</p>*/}
         <ul className={styles.primaryContactIcons}>
           <li>
             <a href={CV} download="IVAN_BURDA-CV.pdf">

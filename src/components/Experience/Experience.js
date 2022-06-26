@@ -13,21 +13,23 @@ export default function Experience() {
       <SecondaryColumn>
         <img src={ivanOutdoor} alt="Ivan Burda" className={styles.secondaryImg} />
         <div className={styles.secondaryTexts}>
-          <p>
-            As an <strong>IT/Business analyst</strong> I help companies understand their needs, refine them and specify steps to fulfill them.
-          </p>
-          <p>
-            Driven by a desire to get deeper technical understanding, <strong>in 2019 I set on the journey of becoming a self-taught developer</strong>.
-          </p>
-          <p>Thanks to the combination of analytical and developer skills I have better understanding of the systems as well as of the people at the workplace, regardless their professional background.</p>
+          <p><strong>I help companies understand their needs and turn them into working solutions.</strong></p>
+          <p>I started programming in 2019 and since 2022 I work as a full-time professional web frontend developer.</p>
+          <p>I have a strong analytical and IT background, <strong>2014-2022 I worked as an IT/Business analyst</strong> in banking.</p>
+          <p>The combination of developer and analytical skills enables me to view challenges at IT projects from various perspectives, and it also helps me in <strong>communication with stakeholders with different backgrounds</strong>.</p>
         </div>
       </SecondaryColumn>
       <PrimaryColumn>
-        <ExperienceItem headline="Frontend Developer" icon={ImUserTie}>
+        <ExperienceItem headline="Web Frontend Developer, 2022 - present" icon={ImUserTie}>
           <p>
-            The decision to learn programming came in 2019. As an IT/business analyst I wanted to have more educated conversations with developers and I wanted computers do things, not only to use what others have created. I enjoy programming and want to get a full-time programming experince. See
-            below my learning curriculum and scroll down to check my portfolio.
+            I started with programming in 2019. Originally, as an IT/business analyst I wanted to have more educated conversations with developers. Soon I realised I enjoy programming because it brings me satisfaction and allows me to express my creativity. Therefore I decided to become a professional developer.
           </p>
+          <p>See
+            below my working history, learning curriculum and scroll down to check my portfolio.</p>
+          <h5>Working History</h5>
+          <ul>
+            <li>Erste Digital, George Online Banking (2022 - present)</li>
+          </ul>
           <h5>React, Redux, TypeScript</h5>
           <ul>
             <li>
@@ -138,7 +140,7 @@ export default function Experience() {
           </ul>
         </ExperienceItem>
 
-        <ExperienceItem headline="IT/Business Analyst, 2014 - present" icon={ImUserTie}>
+        <ExperienceItem headline="IT/Business Analyst, 2014 - 2022" icon={ImUserTie}>
           <p>I started working as an IT/Business Analyst in banking in 2014. As an analyst I see myself responsible for helping companies understand their requirements and refine those in order to deliver valuable solutions.</p>
           <p>I am experienced with working in agile, scrum-based, cross-functional teams. As an analyst I bring team members together to understand what we want to build and why. Collaboration increases engagement, ownership, knowledge sharing, and ultimately leads to better culture. </p>
           <h5>Key Activities</h5>

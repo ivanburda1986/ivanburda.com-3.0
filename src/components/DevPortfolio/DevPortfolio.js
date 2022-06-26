@@ -14,12 +14,18 @@ export default function DevPortfolio() {
   return (
     <div className={styles.DevPortfolio}>
       <div className={styles.DevPortfolioSectionTitle}>
-        <h3>React/Redux/TS</h3>
+        <h3>React/Redux/TypeScript</h3>
         <SiReact className={styles.icon} style={{ color: "#1E90FF" }} />
         <SiRedux className={styles.icon} style={{ color: "#483D8B" }} />
         <SiTypescript className={styles.icon} style={{ color: "#1E90FF" }} />
       </div>
       <ul>
+          <PortfolioItem
+              visitUrl="https://shogi.ivanburda.com/login"
+              githubUrl="https://github.com/ivanburda1986/dobutsu-shogi"
+              title="Dobutsu Shogi Online Game - Refactoring in progress (06/2022)"
+              description="An online version of the Japanese game Dobutsu Shogi. Built with React, TypeScript, Bootstrap. For authentication and data storing I have used Google Firestore. The realtime interaction is enabled possible by using WebSockets."
+          />
         <PortfolioItem
           visitUrl="https://jolly-hoover-c59e25.netlify.app/"
           githubUrl="https://github.com/ivanburda1986/interview-fx-test-typescript"
