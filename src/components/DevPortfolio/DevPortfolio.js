@@ -24,7 +24,7 @@ export default function DevPortfolio() {
               visitUrl="https://shogi.ivanburda.com/login"
               githubUrl="https://github.com/ivanburda1986/dobutsu-shogi"
               title="Dobutsu Shogi Online Game - Refactoring in progress (06/2022)"
-              description="An online version of the Japanese game Dobutsu Shogi. Built with React, TypeScript, Bootstrap. For authentication and data storing I have used Google Firestore. The realtime interaction is enabled possible by using WebSockets."
+              description="An online version of the Japanese game Dobutsu Shogi. Built with React, TypeScript, Bootstrap. For authentication and data storing I have used Google Firestore. The realtime interaction is enabled by using WebSockets."
           />
         <PortfolioItem
           visitUrl="https://jolly-hoover-c59e25.netlify.app/"
