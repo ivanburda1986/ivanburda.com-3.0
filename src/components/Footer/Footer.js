@@ -1,9 +1,8 @@
 import React from "react";
 import styles from "./Footer.module.css";
-import { GrDocumentPdf } from "react-icons/gr";
-import { HiOutlineMail } from "react-icons/hi";
-import { SiGithub } from "react-icons/si";
-import { GrLinkedin } from "react-icons/gr";
+import {GrLinkedin} from "react-icons/gr";
+import {HiOutlineMail} from "react-icons/hi";
+import {SiGithub} from "react-icons/si";
 
 export default function Footer() {
   const getYear = () => {
