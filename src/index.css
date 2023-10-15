@@ -68,9 +68,11 @@
   --blue: #156099;
   --darkBlue: #1d3f62;
   /* --darkBlue: #1d3f62; */
-  --lightBg: #dce7ff;
+  /*--lightBg: #dce7ff;*/
+  --darkBg: rgba(163, 180, 204);
   --mediumBg: #c6d6e6;
-  --darkBg: #afc4cc;
+  /*--darkBg: #afc4cc;  */
+  --lightBg: rgba(182, 195, 214);
   --sidePaddingSmall: 0.75rem;
   --sidePaddingLarge: 1.5rem;
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./About.module.css";
-import ivanBusinessNoBg from "../../media/ivan-business-removebg.png";
+
+import ivanBlackNoBg from "../../media/ivan-black-darkshade-bg.jpeg";
 import signature from "../../media/signature.png";
 import { BiFile } from "react-icons/bi";
 import { HiOutlineMail } from "react-icons/hi";
@@ -14,24 +15,25 @@ export default function About() {
   return (
     <div className={styles.About}>
       <SecondaryColumn>
-        <img src={ivanBusinessNoBg} alt="Ivan Burda" className={styles.secondaryImg} />
+        <img src={ivanBlackNoBg} alt="Ivan Burda" className={styles.secondaryImg} />
         <div className={styles.statementSignatureContainer}>
           <p className={styles.secondaryStatement}>I help companies understand their needs and turn them into working solutions.</p>
           <img src={signature} alt="Ivan Burda - Hand signature" className={styles.signature} />
         </div>
       </SecondaryColumn>
       <PrimaryColumn>
-        <p className={styles.primaryHeadline}>Welcome! I am a front-end developer with 8 years of IT/Business-analyst experience in banking.</p>
+        <p className={styles.primaryHeadline}><strong>Web Frontend Developer</strong> with 8 years of Technical Analyst experience in banking.</p>
         <ul className={styles.topSkills}>
-          <li>React, Redux, Typescript, Javascript, HTML, CSS, Sass</li>
-          <li>Bootstrap, Firestore, Cypress </li>
+          <li>React, Typescript, Javascript, React Native</li>
+          <li>Redux, Redux Toolkit, Google Firestore</li>
+          <li>HTML, CSS, Bootstrap, Sass</li>
+          <li>Jest, Cypress, BDD, TDD </li>
           <li>Analysis and refinement of business needs</li>
-          <li>Requirements engineering, Agile, Scrum, BDD</li>
+          <li>Requirements engineering, Agile, Scrum</li>
           <li>Banking, Desktop, Mobile, IT-system integration, REST API</li>
           <li>Czech, English, German</li>
           <li>Located in Austria, Vienna</li>
         </ul>
-        {/*<p className={styles.primaryCurrentlyInterested}>Currently interested in frontend-development opportunities in the banking/finance sector.</p>*/}
         <ul className={styles.primaryContactIcons}>
           <li>
             <a href={CV} download="IVAN_BURDA-CV.pdf">
@@ -52,7 +54,7 @@ export default function About() {
             </a>
           </li>
           <li>
-            <a href="mailto:burda.ivan@gmail.com" target="_blank" rel="noreferrer">
+            <a href="mailto:burda.ivan@protonmail.com" target="_blank" rel="noreferrer">
               <HiOutlineMail className={styles.primaryIcon} />
               <p>E-mail</p>
             </a>

@@ -18,7 +18,7 @@ function App() {
       <Section id="experience" title={"Experience"} odd={false}>
         <Experience />
       </Section>
-      <Section id="devportfolio" title={"Dev Portfolio"} odd={true}>
+      <Section id="devportfolio" title={"Personal Dev Portfolio"} odd={true}>
         <DevPortfolio />
       </Section>
       <Footer />
